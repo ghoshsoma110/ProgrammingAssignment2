@@ -37,5 +37,5 @@ cacheSolve <- function(x, ...) {
 
 ## Testing the inverse matrix ## Here rnorm(25),5,5 is a square invertible matrix. I am checking whether "m" is returning its inverse matrix or not.
 
-m <- matrix(rnorm(25),5,5)
+m <- matrix(rnorm(16),4,4)
 m
